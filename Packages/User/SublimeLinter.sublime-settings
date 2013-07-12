@@ -1,0 +1,59 @@
+{
+    "sublimelinter": true,
+    "sublimelinter_delay": 0.5,
+    "sublimelinter_fill_outlines": true,
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_popup_errors_on_save": false,
+    "sublimelinter_notes": true,
+
+    "csslint_options":
+    {
+        "ids": false,                   // Disallow IDs in selectors
+        "important": true,              // Disallow !important
+        "duplicate-properties": true,   // Disallow duplicate properties
+        "import": true,                 // Disallow @import
+        "fallback-colors": true,        // Require fallback colors
+        "vendor-prefix": true,          // Require standard property with vendor prefix
+        "known-properties": true,       // Require use of known properties
+        "empty-rules": true,            // Disallow empty rules
+        "one-selector-per-line": true   // To increase readability, put each selector in its own line.
+    },
+
+    "jshint_options":
+    {
+        "jquery": true,
+
+        "browser": true,
+        "camelcase": true,
+        "curly": true,
+        "eqeqeq": true,
+        "forin": true,
+        "immed": true,
+        "indent": 4,
+        "latedef": true,
+        "newcap": true,
+        "noarg": true,
+        "noempty": true,
+        "nonew": false,
+        "quotmark": "double",
+        "undef": true,
+        "unused": true,
+        "strict": false,
+        "trailing": true,
+
+        // "onmen": true,
+        "onevar": false,
+        "white": true,
+
+        "maxerr": 10,
+        "maxlen": 120,
+
+        "predef":
+        [
+            "P",
+            "A",
+            "define",
+            "require"
+        ]
+    }
+}
